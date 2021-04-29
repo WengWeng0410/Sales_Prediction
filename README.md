@@ -53,7 +53,7 @@ The prediction model selected is **LinearRegression**
 
 Coefficient and Intercept produced by the model. <br>
 
-Coefficient:  [ 0.04574401  0.1878667  -0.0010877   0.07739661 -0.10656299  0.26813802]
+Coefficient:  [ 0.04574401  0.1878667  -0.0010877   0.07739661 -0.10656299  0.26813802]<br>
 Intercept:  2.874190989087918 <br>
 
 From the coefficient, it can be seen that google, facebook and area_urban play a major role in determining the unit sold (sales). <br>
