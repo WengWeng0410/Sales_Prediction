@@ -43,6 +43,24 @@ Based on the graphs, there is no significant different in term of the market siz
 ![](/images/Unit_Sold_vs_Ads_Area.png)
 Again, similar with market size, area does not show any significant different in terms of the sales achieved based on budget allocated for the ads.
 
+## Model Building
+
+The input features identified for the model training are google, facebook, instagram, is_large, area_urban and area_suburban. Sales will be the output (target).
+**train_test_split** from **sklearn.model_selection** is used to separat the dataset into training and testing set of data. In this project, 80% of the dataset is used as training set and the remaining 20% is used as testing set. <br>
+The prediction model selected is **LinearRegression**
+
+## Performane Evaluation
+
+Coefficient and Intercept produced by the model. <br><br>
+
+Coefficient:  [ 0.04574401  0.1878667  -0.0010877   0.07739661 -0.10656299  0.26813802]
+Intercept:  2.874190989087918 <br><br>
+
+From the coefficient, it can be seen that google, facebook and area_urban play a major role in determining the unit sold (sales). <br>
+As for the intercept value, it shows that there will be at least 2874 unit sold if the company did not allocate any budget for placing the ads. <br><br>
+
+Based on the result, the performance of LinearRegression is good as it recoreded score of   86.32%.
+
 
 
 
