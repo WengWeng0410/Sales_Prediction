@@ -51,31 +51,12 @@ The prediction model selected is **LinearRegression**
 
 ## Performane Evaluation
 
-Coefficient [google, facebook, instagram, is_large, area_suburban and area_urban] and Intercept produced by the model. <br>
+Coefficients [google, facebook, instagram, is_large, area_suburban and area_urban] and Intercept produced by the model. <br>
 
-Coefficient:  [ 0.04574401  0.1878667  -0.0010877   0.07739661 -0.10656299  0.26813802]<br>
+Coefficients:  [ 0.04574401  0.1878667  -0.0010877   0.07739661 -0.10656299  0.26813802]<br>
 Intercept:  2.874190989087918 <br>
 
 From the coefficient, it can be seen that google, facebook and area_urban play a major role in determining the unit sold (sales). <br>
 As for the intercept value, it shows that there will be at least 2874 unit sold if the company did not allocate any budget for placing the ads. <br>
 
 Based on the result, the performance of LinearRegression is good as it recoreded score of   86.32%.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
