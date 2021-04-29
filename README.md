@@ -51,7 +51,7 @@ The prediction model selected is **LinearRegression**
 
 ## Performane Evaluation
 
-Coefficient and Intercept produced by the model. <br>
+Coefficient [google, facebook, instagram, is_large, area_suburban and area_urban] and Intercept produced by the model. <br>
 
 Coefficient:  [ 0.04574401  0.1878667  -0.0010877   0.07739661 -0.10656299  0.26813802]<br>
 Intercept:  2.874190989087918 <br>
