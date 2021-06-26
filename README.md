@@ -1,5 +1,7 @@
 # Sales Prediction Analytic
 
+## <p align="right">[Portfolio Main Page](https://github.com/WengWeng0410/Weng_Portfolio)</p>
+
 This is a real world dataset provided during the Data Science 360 training. It is a dataset that recording the items sold (sales) based on the budget allocated for placing ads in google, facebook and instagram. Other than that, it also recording the areas and size of the market. Hence, in this project, the goal is to develop a prediction model to predict the sales of a new product based on given budget for ads, size and location of the market. 
 
 * Perform data exploratory on the features in the data
