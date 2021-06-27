@@ -12,7 +12,8 @@ This is a real world dataset provided during the Data Science 360 training. It i
 **Python Version:** 3.7 <br>
 **Packages:** pandas, seaborn, matplotlib, sklearn <br>
 **IDE:** Google Colab <br>
-**Dataset:** Real world dataset provided by [360 Data Science Programm](https://thelead.io/data-science-360) by The Lead 
+**Dataset:** Real world dataset provided by [360 Data Science Programm](https://thelead.io/data-science-360) by The Lead <br>
+**Python Script:** [Notebook](https://colab.research.google.com/drive/1-wBT3r8Q9kfwqzpZLa0_fu5X3qbiEa0j?usp=sharing)
 
 ## Data Gathering
 
