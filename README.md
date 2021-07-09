@@ -7,6 +7,8 @@ This is a real world dataset provided during the Data Science 360 training. It i
 * Perform data exploratory on the features in the data
 * Develop a model to predict if the sales of a new product based on the budget allocated for google, facebook and instagram ads, and the location and size of the market
 
+**Business Question**: What is the sales forecast after advertisement expenditure on different advertisement platforms?
+
 ## Code and Resources Used
 
 **Python Version:** 3.7 <br>
