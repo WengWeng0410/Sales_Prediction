@@ -50,7 +50,7 @@ Again, similar with market size, area does not show any significant different in
 
 The input features identified for the model training are google, facebook, instagram, is_large, area_urban and area_suburban. Sales will be the output (target).
 **train_test_split** from **sklearn.model_selection** is used to separat the dataset into training and testing set of data. In this project, 80% of the dataset is used as training set and the remaining 20% is used as testing set. <br>
-The prediction model selected is **LinearRegression**
+The prediction model selected are **LinearRegression** and **RandomForestRegressor**.
 
 ## Performane Evaluation
 
@@ -62,4 +62,6 @@ Intercept:  2.9647252589304376 <br>
 From the coefficient, it can be seen that google, facebook and area_urban play a major role in determining the unit sold (sales). <br>
 As for the intercept value, it shows that there will be at least 2874 unit sold if the company did not allocate any budget for placing the ads. <br>
 
-Based on the result, the performance of LinearRegression is good as it recoreded score of   **85.36%**.
+Based on the result, the performance of LinearRegression is good as it recoreded R_Squared score of   **85.36%**.
+
+As for RandomForestRegressor, the performance is better than LinearRegression, where the R_Squared score produced is **97.09**%
